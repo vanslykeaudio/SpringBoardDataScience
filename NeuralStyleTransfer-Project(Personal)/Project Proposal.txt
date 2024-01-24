@@ -1,0 +1,37 @@
+CAPSTONE PROJECT 2:
+A NEURAL STYLE TRANSFER PROJECT FOR CONCEPT ART GENERATION
+
+● PROBLEM STATEMENT FORMATION: 
+Build an AI that generates collected sets of 5 -10 “stylized” objects in the early pre-production phase of projects in order to establish a unique artistic direction for animators and artistic designers to follow in creating unique assets for projects.
+
+● CONTEXT:
+In pre-production of the media business, project managers/directors are largely shackled by having to communicate unique ideas to a team of content creators who have to guess at said manager’s/director’s visual intent.  The amount of time spent in this phase can make or break a film/project not to mention how well style and vision is communicated to the creators.  This project aims to make this process easier on at least one axis: the communication of the artistic style.  This AI would facilitate managers to be able to better show their vision to the creators by having a quickly generated temp asset list that the content creators would be able to build off of.
+
+● CRITERIA FOR SUCCESS:
+Success would be determined by the AI’s capability to artistically and accurately reimagine a set or sets of common objects which need to be produced and categorized under an artistic scope facilitating project managers/directors to select which temporary assets best sits in their vision to show their content creators.
+
+● SCOPE OF SOLUTION SPACE:
+We will focus our attention on three aspects:
+Neural Style Transfer: Using 2 sets of data one being a database of sample artistic styles and the other a list of simple photos/pictures to be stylized, to generate temp concept art for content creators to follow as a guide.
+Categorization: We’ll focus on broad stylization for this project. Rather than using every single photo in the database we’ll use a subset to iterate over using every single artistic style to build sets in artistic categories.
+Selection: providing a method for directors and production managers to select which generated image sets most accurately reflect their vision
+
+● CONSTRAINTS:
+We will be limited to common household objects and commodities for this project, being able to expand on the list of objects especially for the fantasy and sci fi genres would be an excellent first step in expanding the project. Likewise being able to stylize on multiple axis of artistic style as a long term expansion of the Neural Style Transfer process, EX: using Monet’s artistic style for backgrounds but Rembrandt for foreground objects. Following this would be allowing directors and managers to specifically select which aspects in a generated image conform to their vision and which does add another layer of ML AI by adding weights on top of the Neural Style Transfer process allowing the model to reiterate over images making them more accurately reflect the vision to be achieved.  There will be a high risk of Over-fitting in this project.  To a degree this is desirable for these later stages and we will need to be able to load the algorithm and its specific weights in “projects” thus allowing over-fitting to only occur in specific instances not across the algorithm as a whole.
+
+● STAKEHOLDERS:
+A short list of Stakeholders would be:
+Directors
+Production Managers
+Producers
+Studio Executives
+Graphical Artists
+Graphic Designers
+Animators
+
+● DATA SOURCES:
+For the sake of proof of concept: this project will only use two databases found in osf.io: https://osf.io/jum2f/ and https://osf.io/BTWNQ/
+Future resources will include further collections of art and photography. Scraped from the internet or submitted by artists and photographers with corresponding metadata.
+Also at a certain juncture it will be necessary to collect this data into our own proprietary Database with our own metadata and classification datasets to help the ML AI function more efficiently by tailoring the database and the model to each other.
+
+This project will Deliver Code, a Slide Deck for presentation to our stakeholders, and a project report which summarizes steps taken with decisions made and why we deemed those actions appropriate at the time.  All of these resources will be available in the project’s GitHub repository.
