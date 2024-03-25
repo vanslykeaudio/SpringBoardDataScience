@@ -1,4 +1,4 @@
-name: datascience
+name: temp_datascience
 channels:
   - pytorch
   - fastai
