@@ -7,14 +7,14 @@ WRISTS, FOREARMS, UPPER ARM, & SHOULDER FRACTURES
 Build an AI by the end of the week that detects bone 
 fractures in X-rays images at at least 85% accuracy
 to aid medical personnel in diagnosing fractures
-in the upper extremeties and thus expediting treatment.
+in the upper extremities and thus expediting treatment.
 
 ● CONTEXT:
 The Human body is a deeply complex organism, so much so
 that people have dedicated their lives to understanding
 it.  X-ray machines are a wonderful device which has 
 greatly increased our insight into the human body,
-particulary that of our bones.  With that being said,
+particularly that of our bones.  With that being said,
 interpreting the images can be difficult for novice and
 trainee medical staff, especially when fractures in the 
 bones are very small.  The aim of this project is to aid 
