@@ -3,7 +3,7 @@ A TIME SERIES PREDICTOR FOR STOCK MARKET VALUES
 
 ● PROBLEM STATEMENT FORMATION: 
 Train a time series model which predicts stock prices with an %85 - %95
-accuracy by the end of March 2024 as a piece for a larger model, ultimately
+accuracy by April 10, 2024 as a piece for a larger model, ultimately
 directed towards automating ideal trading actions depending on pre-defined
 investing goals.
 
@@ -58,4 +58,5 @@ Quandl
 OpenFin
 MarketStack
 FinnHub
+Polygon
 https://www.kaggle.com/datasets/finnhub/sp-500-futures-tick-data-sp
